@@ -148,11 +148,25 @@ img {
 
 /*HERO*/
 
-.hero {
-  background: var(--dark-color);
+.overlay {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid transparent;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--dark-color);
 }
 
 .main-title {
