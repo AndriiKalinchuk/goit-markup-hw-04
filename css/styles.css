@@ -308,13 +308,14 @@ img {
   justify-content: center;
   gap: 24px;
   padding: 0;
+  margin: 8px 0 32px;
 }
 
 .social-list-link {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 8px 0 32px;
+
   background: var(--primary-brand-color);
   padding: 0;
   display: flex;
@@ -356,20 +357,18 @@ img {
   padding: 0;
 }
 
-.portfolio-li {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  width: 360px;
+.portfolio-illustration-link {
+  display: block;
 }
 
-.portfolio-li:hover {
+.portfolio-illustration-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-border {
+  display: flex;
+  flex-direction: column;
   border-right: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
@@ -381,7 +380,7 @@ img {
   line-height: 1.2;
   color: var(--dark-color);
   margin-top: 32px;
-  margin-right: 0;
+  margin-right: auto;
   margin-bottom: 8px;
   margin-left: 16px;
 }
@@ -389,6 +388,7 @@ img {
 .portfolio-business {
   margin-left: 16px;
   margin-bottom: 32px;
+  margin-right: auto;
 }
 
 /**CUSTOMERS**/
@@ -419,7 +419,6 @@ img {
 
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
-  border-color: var(--pressed-state-color);
   fill: var(--pressed-state-color);
 }
 /*FOOTER*/
